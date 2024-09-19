@@ -166,16 +166,17 @@ function App() {
             <StickyNote
               content="<h1>MSNVista Roadmap</h1>
 
-    <h2>2024 Q4: Mainnet Launch & Token Listing</h2>
-    <ul>
-        <li><strong>Mainnet Launch:</strong> Launch MSNVista on the mainnet with core features like token minting, transfers, and chat. Ensure smart contracts are fully functional.</li>
+    <h2>2024 Q4: Token Listing & Testnet Deploy</h2>
+    <ul>      
         <li><strong>Token Listing on EtherVista Dex:</strong> List MSNVista tokens and set up liquidity pools to incentivize early users.</li>
         <li><strong>Community Engagement & Marketing:</strong> Launch marketing campaigns and provide incentives like airdrops.</li>
+        <li><strong>Testnet Deploy:</strong> Deploy MSNVista on the testnet.</li>
         <li><strong>Security Audits:</strong> Conduct security audits and deploy fixes.</li>
     </ul>
 
-    <h2>2025 Q1: Alpha Release & Feature Expansion</h2>
+    <h2>2025 Q1: Alpha (Mainnet) Release & Feature Expansion</h2>
     <ul>
+        <li><strong>Mainnet Launch:</strong> Launch MSNVista on the mainnet with core features like token minting, transfers, and chat. Ensure smart contracts are fully functional.</li>
         <li><strong>Feature Expansion:</strong> Add staking and governance features for community involvement.</li>
         <li><strong>Alpha Release:</strong> Release alpha version for early testing and feedback.</li>
         <li><strong>Community Growth:</strong> Partner with influencers and offer staking rewards.</li>

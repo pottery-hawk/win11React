@@ -18,6 +18,13 @@ export const Background = () => {
   );
 };
 
+export const StickyNote = ({ content, width=200, height=200, top, left, color }) => {
+  return (
+    <div className="sticky-note" style={{width, height, top, left, backgroundColor: color }} dangerouslySetInnerHTML={{__html: content}}>
+    </div>
+  );
+};
+
 export const BootScreen = (props) => {
   const dispatch = useDispatch();
   const wall = useSelector((state) => state.wallpaper);

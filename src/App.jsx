@@ -14,7 +14,7 @@ import {
   WidPane,
 } from "./components/start";
 import Taskbar from "./components/taskbar";
-import { Background, BootScreen, LockScreen } from "./containers/background";
+import { Background, BootScreen, LockScreen, StickyNote } from "./containers/background";
 
 import { loadSettings } from "./actions";
 import * as Applications from "./containers/applications";
@@ -163,6 +163,48 @@ function App() {
             <SidePane />
             <WidPane />
             <CalnWid />
+            <StickyNote
+              content="<h1>MSNVista Roadmap</h1>
+
+    <h2>2024 Q4: Mainnet Launch & Token Listing</h2>
+    <ul>
+        <li><strong>Mainnet Launch:</strong> Launch MSNVista on the mainnet with core features like token minting, transfers, and chat. Ensure smart contracts are fully functional.</li>
+        <li><strong>Token Listing on EtherVista Dex:</strong> List MSNVista tokens and set up liquidity pools to incentivize early users.</li>
+        <li><strong>Community Engagement & Marketing:</strong> Launch marketing campaigns and provide incentives like airdrops.</li>
+        <li><strong>Security Audits:</strong> Conduct security audits and deploy fixes.</li>
+    </ul>
+
+    <h2>2025 Q1: Alpha Release & Feature Expansion</h2>
+    <ul>
+        <li><strong>Feature Expansion:</strong> Add staking and governance features for community involvement.</li>
+        <li><strong>Alpha Release:</strong> Release alpha version for early testing and feedback.</li>
+        <li><strong>Community Growth:</strong> Partner with influencers and offer staking rewards.</li>
+    </ul>
+
+    <h2>2025 Q2: Beta Release & Ecosystem Growth</h2>
+    <ul>
+        <li><strong>Beta Release:</strong> Launch the beta version with token swaps and advanced features.</li>
+        <li><strong>Partnership Development:</strong> Expand partnerships with other blockchain projects and explore cross-chain integration.</li>
+        <li><strong>Community Governance:</strong> Roll out governance for platform upgrades and community decisions.</li>
+    </ul>
+
+    <h2>2025 Q3: Growth & Onboarding</h2>
+    <ul>
+        <li><strong>User Onboarding:</strong> Scale user onboarding with tutorials and token incentives.</li>
+        <li><strong>Feature Expansion:</strong> Enhance features like NFT marketplace and staking options.</li>
+    </ul>
+
+    <h2>2025 Q4: Maturity & Future Planning</h2>
+    <ul>
+        <li><strong>Security & Scaling:</strong> Conduct regular audits and explore cross-chain integration.</li>
+        <li><strong>Future Roadmap:</strong> Plan future developments based on community feedback and platform success.</li>
+    </ul>"
+              width="600px"
+              height="600px"
+              top="50px"
+              left="100px"
+              color="#caf0f8"
+            />
           </div>
           <Taskbar />
           <ActMenu />

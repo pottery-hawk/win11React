@@ -285,14 +285,14 @@ export const WnTerminal = () => {
       tmpStack.push("OS [Version 10.0.22000.51]");
     } else if (type == "systeminfo") {
       var dvInfo = [
-        "Host Name:                 BLUE",
-        "OS Name:                   Win11React Dummys Edition",
+        "Host Name:                 MSN-Vista-Early",
+        "OS Name:                   MSN Vista Early Edition",
         "OS Version:                10.0.22000 N/A Build 22000.51",
-        "OS Manufacturer:           ",
+        "OS Manufacturer:           EtherVista",
         "OS Configuration:          Standalone Workstation",
         "OS Build Type:             Multiprocessor Free",
-        "Registered Owner:          Blue",
-        "Registered Organization:   N/A",
+        "Registered Owner:          Jack Daniel",
+        "Registered Organization:   EtherVista",
         "Product ID:                7H1S1-5AP1R-473DV-3R5I0N",
       ];
 

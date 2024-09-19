@@ -15,11 +15,11 @@ var { taskbar, desktop, pinned, recent } = {
     "Unescape",
     "Recycle Bin",
     "File Explorer",
-    "Store",
+    // "Store",
     "Browser",
-    "Github",
+    // "Github",
     "Spotify",
-    "Buy me a coffee",
+    "EtherVista DEX",
   ],
   pinned: (localStorage.getItem("pinned") &&
     JSON.parse(localStorage.getItem("pinned"))) || [

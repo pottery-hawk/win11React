@@ -47,11 +47,11 @@ const apps = [
     action: "MSEDGE",
   },
   {
-    name: "Buy me a coffee",
-    icon: "buyme",
+    name: "EtherVista DEX",
+    icon: "ethervista",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://www.buymeacoffee.com/blueedgetechno",
+    payload: "https://ethervista.app",
   },
   {
     name: "Store",
@@ -118,7 +118,7 @@ const apps = [
     icon: "help",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://win11react-docs.andrewstech.me/",
+    payload: "",
   },
   {
     name: "Yammer",
@@ -287,13 +287,13 @@ const apps = [
     action: "EXTERNAL",
     payload: "https://github.com/blueedgetechno/win11React",
   },
-  {
-    name: "Unescape",
-    icon: "unescape",
-    type: "action",
-    action: "EXTERNAL",
-    payload: "https://blueedge.me/unescape",
-  },
+  // {
+  //   name: "Unescape",
+  //   icon: "unescape",
+  //   type: "action",
+  //   action: "EXTERNAL",
+  //   payload: "https://blueedge.me/unescape",
+  // },
   {
     name: "Discord",
     icon: "discord",

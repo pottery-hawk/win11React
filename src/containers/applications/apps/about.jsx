@@ -31,7 +31,7 @@ export const AboutWin = () => {
   return open || abOpen ? (
     <div className="aboutApp floatTab dpShad">
       <div className="content p-6">
-        <div className="text-xl font-semibold">{t("about.title")}</div>
+        <div className="text-xl font-semibold">{t("about.roadmap")}</div>
         <p>{t("about.opensource")}</p>
         <p>
           {t("about.licensed")}&nbsp;

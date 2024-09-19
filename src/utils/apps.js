@@ -287,6 +287,13 @@ const apps = [
     action: "EXTERNAL",
     payload: "https://github.com/blueedgetechno/win11React",
   },
+  {
+    name: "MSNVista",
+    icon: "msnvista",
+    type: "app",
+    action: "EXTERNAL",
+    payload: "https://app.msnvista.com",
+  },
   // {
   //   name: "Unescape",
   //   icon: "unescape",

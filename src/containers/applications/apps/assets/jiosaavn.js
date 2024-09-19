@@ -37,10 +37,6 @@ class JioSaavn {
         src: "https://aac.saavncdn.com/432/545714e974b6138352be162e6f13c4f5_160.mp4",
       },
     ];
-
-    this.instance = axios.create({
-      baseURL: "https://dev.saavn.me",
-    });
   }
 
   fetch(url, config = {}) {
